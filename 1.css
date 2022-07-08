@@ -1,0 +1,28 @@
+body{
+    color: rgb(46, 182, 114);
+    font-family: fantasy;
+    background-image: url("luca-bravo-TaCk3NspYe0-unsplash.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-position: left;
+    background-size: cover;
+}
+#P3{
+    border-style:groove;
+    border-radius: 10px;
+    border-color: rgb(0, 0, 0);
+    padding: 10px;
+    font-family: Anek Latin ;
+    font-weight: bold;
+    background:linear-gradient(to right,rgb(0, 0, 0) , rgb(184, 184, 184));
+    background-repeat: no-repeat;
+}
+li:nth-child(even){
+    background-color: black;
+    width: 70px;
+}
+li:nth-child(odd){
+    background-color: aliceblue;
+    width: 70px;
+}
+    
